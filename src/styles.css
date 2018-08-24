@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 * {
-    background-image: url('./assets/background.jpg');
+    background-image: url('./assets/moon.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

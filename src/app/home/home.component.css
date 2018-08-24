@@ -1,24 +1,83 @@
 #intro-box {
     border: 5px solid white;
-    height: 250px;
-    width: 500px;
+    height: 225px;
+    width: 750px;
     color: white;
     text-align: center;
     padding: 8px;
-    margin-left: 35%;
-    margin-top: 10%;
+    margin-left: 30%;
+    margin-top: 15%;
 }
 
 #name {
-    margin-top: -40px;
-    margin-right: 15px;
+    margin-top: -75px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 100px;
+    font-family: 'Amatic SC';
+}
+
+#first-tab {
+    background: white;
+    height: 500px;
+    width: auto;
+    font-family: 'Amatic SC';
     font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#experiences-title {
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 50px;
+    text-align: center; 
+    position: relative;
+    background: inherit;
+}
+
+#experiences-info {
+    color: black;
+    font-family: 'Amatic SC';
+    position: relative;
+    background: inherit;
+    font-size: 35px;
+    margin-top: -15px;
+}
+
+#box {
+    border: 5px solid black;
+    background: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 36.8%;
+    height: 150px;
+    padding: 10px;
 }
 
 p {
     margin-top: 25px;
+    font-size: 25px;
+    font-family: 'Amatic SC';
+    margin-bottom: 30px;
 }
 
 h2 {
-    font-family: cursive;
+    font-family: 'Amatic SC';
+    font-size: 50px;
 }
+
+#emphasis {
+    text-emphasis: dot;
+    text-emphasis-position: under right;
+}
+
+
