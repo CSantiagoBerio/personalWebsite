@@ -1,8 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
-* {
-    background-image: url('./assets/moon.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+/* Font-Family */
+
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Amatic+SC|Architects+Daughter|Bad+Script|Calligraffitti|Caveat|Ceviche+One|Cinzel|Cinzel+Decorative|Coming+Soon|Cookie|Courgette|Covered+By+Your+Grace|Damion|Give+You+Glory|Gloria+Hallelujah|Great+Vibes|Gruppo|Hanalei+Fill|Homemade+Apple|Indie+Flower|Kalam|Kaushan+Script|Kelly+Slab|Knewave|Limelight|Love+Ya+Like+A+Sister|Marck+Script|Metamorphous|Nanum+Brush+Script|Neucha|Nothing+You+Could+Do|Nova+Script|Orbitron|Pacifico|Permanent+Marker|Petit+Formal+Script|Press+Start+2P|Rajdhani|Reenie+Beanie|Rock+Salt|Sarpanch|Satisfy|Shadows+Into+Light+Two|Sue+Ellen+Francisco|Wallpoet|Yellowtail');
+
+
+body {
+  background-image: url('./assets/moon.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Amatic SC';
 }

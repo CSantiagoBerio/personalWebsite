@@ -1,83 +1,128 @@
 #intro-box {
-    border: 5px solid white;
-    height: 225px;
-    width: 750px;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    margin-left: 30%;
-    margin-top: 15%;
+  height: 225px;
+  width: 750px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-left: 30%;
+  margin-top: 10%;
+  background: inherit;
+  background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+  background-repeat: no-repeat;
+  background-size: 8px 3px;
+  background-position: top left, top right, bottom left, bottom right;
+  border: solid white;
+  border-width: 0 3px;
 }
 
 #name {
-    margin-top: -75px;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 100px;
-    font-family: 'Amatic SC';
+  margin-top: -75px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 100px;
+  background-clip: border-box;
 }
 
-#first-tab {
-    background: white;
-    height: 500px;
-    width: auto;
-    font-family: 'Amatic SC';
-    font-size: 50px;
-    color: black;
-    overflow: hidden;
-    margin-top: 100px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.first-tab {
+  background: white;
+  height: auto;
+  width: auto;
+  font-size: 50px;
+  color: black;
+  overflow: hidden;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#experiences-title {
-    font-family: 'Amatic SC';
-    font-size: 50px;
-    color: black;
-    overflow: hidden;
-    margin-top: 50px;
-    text-align: center; 
-    position: relative;
-    background: inherit;
+.experiences-title {
+  font-size: 75px;
+  color: black;
+  overflow: hidden;
+  margin-top: 75px;
+  text-align: center;
+  position: relative;
+  background: inherit;
 }
 
-#experiences-info {
-    color: black;
-    font-family: 'Amatic SC';
-    position: relative;
-    background: inherit;
-    font-size: 35px;
-    margin-top: -15px;
+.experiences-info {
+  color: black;
+  position: relative;
+  background: inherit;
+  font-size: 50px;
+  margin-top: -45px;
 }
 
-#box {
-    border: 5px solid black;
-    background: inherit;
-    position: relative;
-    margin-top: 50px;
-    width: 500px;
-    margin-left: 36.8%;
-    height: 150px;
-    padding: 10px;
+.box {
+  background: inherit;
+  position: relative;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 32%;
+  height: 150px;
+  padding: 10px;
+  background-image: linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black);
+  background-repeat: no-repeat;
+  background-size: 8px 3px;
+  background-position: top left, top right, bottom left, bottom right;
+  border: solid black;
+  border-width: 0 3px;
+}
+
+table,
+tr,
+td {
+  background: inherit;
+  position: relative;
+  padding: 10px;
+  margin-top: 100px;
 }
 
 p {
-    margin-top: 25px;
-    font-size: 25px;
-    font-family: 'Amatic SC';
-    margin-bottom: 30px;
+  margin-top: 25px;
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 
 h2 {
-    font-family: 'Amatic SC';
-    font-size: 50px;
+  font-size: 50px;
 }
 
 #emphasis {
-    text-emphasis: dot;
-    text-emphasis-position: under right;
+  text-emphasis: dot;
+  text-emphasis-position: under right;
 }
 
+hr {
+  width: 75%;
+  border-color: black;
+  border-top-width: 5px;
+}
 
+#carouselExampleControls {
+  width: 75%;
+  height: auto;
+  border: 2px solid black;
+  margin-left: 12.5%;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.carousel-item {
+  height: auto;
+  font-size: 50px;
+}
+
+.carousel-control-previous {
+    margin-left: -50px;
+}
+
+.fa-angle-left {
+    color: black;
+}
+
+.fa-angle-right {
+    color: black;
+}
