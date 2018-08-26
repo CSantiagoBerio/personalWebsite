@@ -52,7 +52,6 @@
   position: relative;
   background: inherit;
   font-size: 50px;
-  margin-top: -45px;
 }
 
 .box {
@@ -96,33 +95,48 @@ h2 {
 }
 
 hr {
-  width: 75%;
-  border-color: black;
+  height: 45px;
+  border-color: white;
   border-top-width: 5px;
+  border-top-style: dotted;
+  width: 75%;
 }
 
 #carouselExampleControls {
   width: 75%;
-  height: auto;
-  border: 2px solid black;
+  height: 750px;
+  border: 2px dashed black;
   margin-left: 12.5%;
   margin-top: 50px;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 .carousel-item {
   height: auto;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .carousel-control-previous {
-    margin-left: -50px;
+  margin-left: -50px;
 }
 
 .fa-angle-left {
-    color: black;
+  color: black;
 }
 
 .fa-angle-right {
-    color: black;
+  color: black;
+}
+
+.second-tab {
+  height: auto;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 50px;
+}
+
+#extra-activities {
+  font-size: 35px;
 }
