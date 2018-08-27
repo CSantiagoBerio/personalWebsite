@@ -71,11 +71,11 @@
 }
 
 .box.white {
-    background: inherit;
+  background: inherit;
   position: relative;
   margin-top: 50px;
   width: 500px;
-  margin-left: 32%;
+  /* margin-left: 36.5%; */
   height: 150px;
   padding: 10px;
   background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
@@ -156,3 +156,54 @@ hr {
 #extra-activities {
   font-size: 35px;
 }
+
+img#rumarino-logo {
+  height: 200px;
+  width: 250px;
+}
+
+img#crome-logo {
+    height: 300px;
+    width: 650px;
+    margin-left: 25%;
+}
+
+ul li {
+  display: inline-block;
+  padding: 8px;
+}
+
+table#ruma-table {
+    font-size: 35px;
+    width: auto;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: -15px;
+    padding: 10px;
+}
+
+img#ieee-logo {
+    height: 200px;
+    width: 300px;
+}
+
+img#computersociety-logo {
+    height: 350px;
+    width: 550px;
+    margin-left: 25%;
+}
+
+table#computersociety-table {
+    font-size: 35px;
+    width: auto;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: -15px;
+    padding: 10px;
+}
+
+#computer-society {
+    margin-left: 20%;
+}
+
+
