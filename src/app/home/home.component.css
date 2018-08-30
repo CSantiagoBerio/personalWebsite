@@ -117,8 +117,11 @@ td {
 
 p {
   margin-top: 25px;
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 30px;
+  margin-left: 15%;
+  text-align: center;
+  margin-right: 15%;
 }
 
 h2 {
@@ -246,6 +249,10 @@ table#computersociety-table {
 img#python-logo {
   height: 50px;
   width: 50px;
+}
+
+.tab-title {
+  font-size: 45px;
 }
 
 

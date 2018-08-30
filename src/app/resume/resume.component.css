@@ -1,0 +1,142 @@
+#intro-box {
+  height: 225px;
+  width: 850px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  background: inherit;
+  background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+  background-repeat: no-repeat;
+  background-size: 8px 3px;
+  background-position: top left, top right, bottom left, bottom right;
+  border: solid white;
+  border-width: 0 3px;
+}
+
+.intro-title {
+  /* margin-top: -75px; */
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 90px;
+  background-clip: border-box;
+}
+
+.intro-message {
+  font-size: 25px;
+}
+
+.first-tab {
+  background: white;
+  height: auto;
+  width: auto;
+  font-size: 50px;
+  color: black;
+  overflow: hidden;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+a#download-button {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+  margin-top: 50%;
+  margin-left: 44%;
+  font-size: 25px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+a#download-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bar {
+    height: 50%;
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0);
+    margin-left: 25%;
+    position: relative;
+}
+
+.java-bar {
+    font-size: 50%;
+    width: 50%;
+    background-color: darkred;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+}
+
+.python-bar {
+    font-size: 50%;
+    width: 25%;
+    background-color: gold;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.html-bar {
+    font-size: 50%;
+    width: 40%;
+    background-color: darkgreen;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.css-bar {
+    font-size: 50%;
+    width: 20%;
+    background-color: aqua;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.angular6-bar {
+    font-size: 50%;
+    width: 35%;
+    background-color: red;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.sql-bar {
+    font-size: 50%;
+    width: 15%;
+    background-color: purple;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+table {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 35%;
+}
+
+table.skills-table tr td {
+    padding: 0.025%;
+    margin-right: 15%;
+    width: 15%;
+}
+
+td.td-title {
+    font-size: 75%;
+}
+
+span.bar-title {
+    font-size: 50%;
+    margin-left: -65%;
+}
+
