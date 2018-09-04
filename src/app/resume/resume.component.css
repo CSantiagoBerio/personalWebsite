@@ -53,16 +53,16 @@
     color: black;
   }
   .bar {
-    height: 50%;
-    width: 60%;
+    height: auto;
+    width: 77%;
     background-color: lightgray;
     border-radius: 25px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0);
-    margin-left: 25%;
+    margin-left: 16%;
     position: relative;
   }
   .java-bar {
-    font-size: 50%;
+    font-size: 27%;
     width: 50%;
     background-color: darkred;
     border-top-left-radius: 25px;
@@ -70,57 +70,53 @@
     position: relative;
   }
   .python-bar {
-    font-size: 50%;
+    font-size: 27%;
     width: 25%;
     background-color: gold;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
   .html-bar {
-    font-size: 50%;
+    font-size: 27%;
     width: 40%;
     background-color: darkgreen;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
   .css-bar {
-    font-size: 50%;
+    font-size: 27%;
     width: 20%;
     background-color: aqua;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
   .angular6-bar {
-    font-size: 50%;
+    font-size: 27%;
     width: 35%;
     background-color: red;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
   .sql-bar {
-    font-size: 50%;
+    font-size: 27%;
     width: 15%;
     background-color: purple;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
-  table {
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 35%;
-    margin-bottom: 3%;
-  }
+
   table.skills-table tr td {
     padding: 0.025%;
-    margin-right: 15%;
-    width: 15%;
+    width: 130%;
+    margin-left: -20%;
+    margin-top: -4%;
   }
   td.td-title {
-    font-size: 75%;
+    font-size: 31%;
   }
   span.bar-title {
-    font-size: 50%;
-    margin-left: -65%;
+    font-size: 35%;
+    margin-left: 7%;
   }
   /* Home Component CSS */
   .first-tab {
@@ -195,9 +191,9 @@
     font-size: 31%;
   }
   .box#roche {
-    width: 42%;
-    margin-left: 29%;
-    font-size: 100%;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 33%;
   }
   table,
   tr,
@@ -270,54 +266,78 @@
   #extra-activities {
     font-size: 35px;
   }
-  img#rumarino-logo {
-    height: 200px;
-    width: 250px;
-  }
-  img#crome-logo {
-    height: 300px;
-    width: 600px;
-    margin-left: 0%;
-  }
   ul li {
     display: inline-block;
     padding: 8px;
     margin-left: 5%;
   }
-  table#ruma-table {
-    font-size: 35px;
-    width: auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: -15px;
+  .box#ruma {
+    width: 112%;
+    text-align: center;
+    margin-left: -15%;
+    font-size: 39%;
+    background: inherit;
+    position: relative;
+    margin-top: 5%;
+    height: 50%;
     padding: 10px;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
   }
-  img#ieee-logo {
-    height: 200px;
-    width: 300px;
+  img#rumarino-logo {
+    height: 50%;
+    width: 40%;
+    margin-left: -22%;
   }
-  img#computersociety-logo {
-    height: 350px;
-    width: 550px;
-    /* margin-left: 25%; */
+  img#crome-logo {
+    height: 60%;
+    width: 120%;
+    margin-left: -19%;
   }
-  table#computersociety-table {
-    font-size: 35px;
-    width: auto;
-    margin-left: 20%;
+  table#ruma-table {
+    font-size: 33%;
+    width: 91%;
+    margin-left: 6%;
     margin-right: 20%;
     margin-top: -15px;
     padding: 10px;
   }
   .box#computer-society {
-    margin-left: 7%;
-    width: 100%;
+    width: 112%;
     text-align: center;
+    margin-left: -15%;
+    font-size: 39%;
+    background: inherit;
+    position: relative;
+    margin-top: 5%;
+    height: 50%;
+    padding: 10px;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
   }
-  .box#ruma {
-    width: 100%;
-    text-align: center;
-    margin-left: 10%;
+  img#ieee-logo {
+    width: 50%;
+    margin-left: -11%;
+  }
+  img#computersociety-logo {
+    width: 71%;
+    margin-left: -15%;
+  }
+  table#computersociety-table {
+    font-size: 32%;
+    width: 91%;
+    margin-left: 7%;
+    margin-right: 20%;
+    margin-top: -15px;
+    padding: 10px;
   }
   .third-tab {
     background-color: white;
@@ -325,11 +345,11 @@
     font-size: 35px;
   }
   img#python-logo {
-    height: 50px;
-    width: 50px;
+    height: 10%;
+    width: 8%;
   }
-  .tab-title {
-    font-size: 45px;
+  span.tab-title {
+    font-size: 35%;
   }
 }
 

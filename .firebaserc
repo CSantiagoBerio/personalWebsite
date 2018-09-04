@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "e-resume-449e5"
+    "default": "c-santiagoberio",
+    "c-santiagoberio": "c-santiagoberio"
   }
 }
