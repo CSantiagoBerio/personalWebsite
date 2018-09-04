@@ -1,145 +1,15 @@
-#intro-box {
-  height: 225px;
-  width: 850px;
-  color: white;
-  text-align: center;
-  padding: 8px;
-  margin-left: 30%;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  background: inherit;
-  background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
-  background-repeat: no-repeat;
-  background-size: 8px 3px;
-  background-position: top left, top right, bottom left, bottom right;
-  border: solid white;
-  border-width: 0 3px;
-}
+/* Extra small devices (phones, 600px and down) */
 
-.intro-title {
-  /* margin-top: -75px; */
-  margin-right: 5px;
-  margin-left: 5px;
-  font-size: 82px;
-  background-clip: border-box;
-}
-
-.intro-message {
-  font-size: 25px;
-}
-
-
-a#download-button {
-  border: 3px solid white;
-  background-color: transparent;
-  color: white;
-  padding: 15px;
-  margin-top: 50%;
-  margin-left: 44%;
-  font-size: 25px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a#download-button:hover {
-    background-color: white;
-    color: black;
-}
-
-.bar {
-    height: 50%;
-    width: 60%;
-    background-color: lightgray;
-    border-radius: 25px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0);
-    margin-left: 25%;
-    position: relative;
-}
-
-.java-bar {
-    font-size: 50%;
-    width: 50%;
-    background-color: darkred;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    position: relative;
-}
-
-.python-bar {
-    font-size: 50%;
-    width: 25%;
-    background-color: gold;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-.html-bar {
-    font-size: 50%;
-    width: 40%;
-    background-color: darkgreen;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-.css-bar {
-    font-size: 50%;
-    width: 20%;
-    background-color: aqua;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-.angular6-bar {
-    font-size: 50%;
-    width: 35%;
-    background-color: red;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-.sql-bar {
-    font-size: 50%;
-    width: 15%;
-    background-color: purple;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-table {
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 35%;
-    margin-bottom: 3%;
-}
-
-table.skills-table tr td {
-    padding: 0.025%;
-    margin-right: 15%;
-    width: 15%;
-}
-
-td.td-title {
-    font-size: 75%;
-}
-
-span.bar-title {
-    font-size: 50%;
-    margin-left: -65%;
-}
-
-
-
-/* Home Component CSS */
-#intro-box {
-    height: 225px;
-    width: 750px;
+@media only screen and (max-width: 600px) {
+  #intro-box {
+    height: 115px;
+    width: 87%;
     color: white;
     text-align: center;
     padding: 8px;
-    margin-left: 30%;
+    margin-left: 7%;
     margin-top: 10%;
+    margin-bottom: 5%;
     background: inherit;
     background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
     background-repeat: no-repeat;
@@ -148,7 +18,111 @@ span.bar-title {
     border: solid white;
     border-width: 0 3px;
   }
-  
+  .intro-title {
+    /* margin-top: -75px; */
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 200%;
+    background-clip: border-box;
+  }
+  .intro-message {
+    font-size: 80%;
+  }
+  div#download-button {
+    background-color: transparent;
+    margin-top: 14%;
+    font-size: 80%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  div#download-button a {
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    margin-left: 32%;
+    font-size: 80%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  div#download-button a:hover {
+    background-color: white;
+    color: black;
+  }
+  .bar {
+    height: 50%;
+    width: 60%;
+    background-color: lightgray;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0);
+    margin-left: 25%;
+    position: relative;
+  }
+  .java-bar {
+    font-size: 50%;
+    width: 50%;
+    background-color: darkred;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+  }
+  .python-bar {
+    font-size: 50%;
+    width: 25%;
+    background-color: gold;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .html-bar {
+    font-size: 50%;
+    width: 40%;
+    background-color: darkgreen;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .css-bar {
+    font-size: 50%;
+    width: 20%;
+    background-color: aqua;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .angular6-bar {
+    font-size: 50%;
+    width: 35%;
+    background-color: red;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .sql-bar {
+    font-size: 50%;
+    width: 15%;
+    background-color: purple;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  table {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 35%;
+    margin-bottom: 3%;
+  }
+  table.skills-table tr td {
+    padding: 0.025%;
+    margin-right: 15%;
+    width: 15%;
+  }
+  td.td-title {
+    font-size: 75%;
+  }
+  span.bar-title {
+    font-size: 50%;
+    margin-left: -65%;
+  }
+  /* Home Component CSS */
   .first-tab {
     background: white;
     height: auto;
@@ -162,24 +136,21 @@ span.bar-title {
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
-  
   .experiences-title {
-    font-size: 50px;
+    font-size: 60%;
     color: black;
     overflow: hidden;
-    margin-top: 25px;
+    margin-top: 5%;
     text-align: center;
     position: relative;
     background: inherit;
   }
-  
   .experiences-info {
     color: black;
     position: relative;
     background: inherit;
     font-size: 50px;
   }
-  
   .box {
     background: inherit;
     position: relative;
@@ -195,7 +166,6 @@ span.bar-title {
     border: solid black;
     border-width: 0 3px;
   }
-  
   .box.white {
     background: inherit;
     position: relative;
@@ -211,38 +181,33 @@ span.bar-title {
     border: solid white;
     border-width: 0 3px;
   }
-  
   .white-text {
     color: white;
   }
-  
   .box#jechat {
-    width: 45%;
-    margin-left: 28%;
-    font-size: 100%;
+    width: 75%;
+    margin-left: 14%;
+    font-size: 39%;
   }
-  
   .box#sahure {
-    width: 50%;
-    margin-left: 26%;
-    font-size: 100%;
+    width: 90%;
+    margin-left: 6%;
+    font-size: 31%;
   }
-  
   .box#roche {
     width: 42%;
     margin-left: 29%;
     font-size: 100%;
   }
-  
   table,
   tr,
   td {
     background: inherit;
     position: relative;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 0%;
+    display: inline-block
   }
-  
   p {
     margin-top: 25px;
     font-size: 35px;
@@ -251,16 +216,13 @@ span.bar-title {
     text-align: center;
     margin-right: 15%;
   }
-  
   h2 {
     font-size: 35px;
   }
-  
   #emphasis {
     text-emphasis: dot;
     text-emphasis-position: under right;
   }
-  
   hr {
     height: 45px;
     border-color: white;
@@ -268,7 +230,6 @@ span.bar-title {
     border-top-style: dotted;
     width: 75%;
   }
-  
   #carouselExampleControls {
     width: 75%;
     height: 750px;
@@ -280,32 +241,25 @@ span.bar-title {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
     background-color: lightgrey;
   }
-  
   .carousel-item {
     height: auto;
     font-size: 40px;
   }
-  
   .carousel-control-prev {
     left: -12%;
   }
-
   .carousel-control-next {
     right: -12%;
   }
-  
   .fa-angle-left {
     color: black;
   }
-  
   .fa-angle-right {
     color: black;
   }
-  
   .carousel-table {
-    font-size: 76%;
+    font-size: 35%;
   }
-  
   .second-tab {
     height: auto;
     color: white;
@@ -313,82 +267,432 @@ span.bar-title {
     position: relative;
     font-size: 35px;
   }
-  
   #extra-activities {
     font-size: 35px;
   }
-  
   img#rumarino-logo {
     height: 200px;
     width: 250px;
   }
-  
   img#crome-logo {
-      height: 300px;
-      width: 600px;
-      margin-left: 0%;
+    height: 300px;
+    width: 600px;
+    margin-left: 0%;
   }
-  
   ul li {
     display: inline-block;
     padding: 8px;
     margin-left: 5%;
   }
-  
   table#ruma-table {
-      font-size: 35px;
-      width: auto;
-      margin-left: 20%; 
-      margin-right: 20%;
-      margin-top: -15px;
-      padding: 10px;
+    font-size: 35px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -15px;
+    padding: 10px;
   }
-  
   img#ieee-logo {
-      height: 200px;
-      width: 300px;
+    height: 200px;
+    width: 300px;
   }
-  
   img#computersociety-logo {
-      height: 350px;
-      width: 550px;
-      /* margin-left: 25%; */
+    height: 350px;
+    width: 550px;
+    /* margin-left: 25%; */
   }
-  
   table#computersociety-table {
-      font-size: 35px;
-      width: auto;
-      margin-left: 20%; 
-      margin-right: 20%;
-      margin-top: -15px;
-      padding: 10px;
+    font-size: 35px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -15px;
+    padding: 10px;
   }
-  
   .box#computer-society {
-      margin-left: 7%;
-      width: 100%; 
-      text-align: center;
+    margin-left: 7%;
+    width: 100%;
+    text-align: center;
   }
   .box#ruma {
     width: 100%;
     text-align: center;
     margin-left: 10%;
   }
-  
   .third-tab {
     background-color: white;
     height: auto;
     font-size: 35px;
   }
-  
   img#python-logo {
     height: 50px;
     width: 50px;
   }
-  
   .tab-title {
     font-size: 45px;
   }
-  
-  
-  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  #intro-box {
+    height: 225px;
+    width: 850px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background: inherit;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
+  }
+  .intro-title {
+    /* margin-top: -75px; */
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 82px;
+    background-clip: border-box;
+  }
+  .intro-message {
+    font-size: 25px;
+  }
+  div#download-button {
+    background-color: transparent;
+    color: white;
+    margin-top: 8%;
+    font-size: 25px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  div#download-button a {
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    margin-left: 43%;
+    font-size: 90%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a#download-button a:hover {
+    background-color: white;
+    color: black;
+  }
+  .bar {
+    height: 50%;
+    width: 60%;
+    background-color: lightgray;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0);
+    margin-left: 25%;
+    position: relative;
+  }
+  .java-bar {
+    font-size: 50%;
+    width: 50%;
+    background-color: darkred;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+  }
+  .python-bar {
+    font-size: 50%;
+    width: 25%;
+    background-color: gold;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .html-bar {
+    font-size: 50%;
+    width: 40%;
+    background-color: darkgreen;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .css-bar {
+    font-size: 50%;
+    width: 20%;
+    background-color: aqua;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .angular6-bar {
+    font-size: 50%;
+    width: 35%;
+    background-color: red;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .sql-bar {
+    font-size: 50%;
+    width: 15%;
+    background-color: purple;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  table.skills-table {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 35%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+  }
+  table.skills-table tr td {
+    padding: 0.025%;
+    margin-right: 15%;
+    width: 15%;
+  }
+  td.td-title {
+    font-size: 75%;
+  }
+  span.bar-title {
+    font-size: 50%;
+    margin-left: -65%;
+  }
+  /* Home Component CSS */
+  #intro-box {
+    height: 225px;
+    width: 750px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-left: 30%;
+    margin-top: 10%;
+    background: inherit;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
+  }
+  .first-tab {
+    background: white;
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .experiences-title {
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+    background: inherit;
+  }
+  .experiences-info {
+    color: black;
+    position: relative;
+    background: inherit;
+    font-size: 50px;
+  }
+  .box {
+    background: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 32%;
+    height: 50%;
+    padding: 10px;
+    background-image: linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid black;
+    border-width: 0 3px;
+  }
+  .box.white {
+    background: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: auto;
+    /* margin-left: 36.5%; */
+    height: 150px;
+    padding: 10px;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
+  }
+  .white-text {
+    color: white;
+  }
+  .box#jechat {
+    width: 45%;
+    margin-left: 28%;
+    font-size: 100%;
+  }
+  .box#sahure {
+    width: 50%;
+    margin-left: 26%;
+    font-size: 100%;
+  }
+  .box#roche {
+    width: 42%;
+    margin-left: 29%;
+    font-size: 100%;
+  }
+  table,
+  tr,
+  td {
+    background: inherit;
+    position: relative;
+    padding: 10px;
+    margin-top: 9%;
+  }
+  p {
+    margin-top: 25px;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    text-align: center;
+    margin-right: 15%;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  #emphasis {
+    text-emphasis: dot;
+    text-emphasis-position: under right;
+  }
+  hr {
+    height: 45px;
+    border-color: white;
+    border-top-width: 5px;
+    border-top-style: dotted;
+    width: 75%;
+  }
+  #carouselExampleControls {
+    width: 75%;
+    height: 750px;
+    border: 2px dashed black;
+    margin-left: 12.5%;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
+    background-color: lightgrey;
+  }
+  .carousel-item {
+    height: auto;
+    font-size: 40px;
+  }
+  .carousel-control-prev {
+    left: -12%;
+  }
+  .carousel-control-next {
+    right: -12%;
+  }
+  .fa-angle-left {
+    color: black;
+  }
+  .fa-angle-right {
+    color: black;
+  }
+  .carousel-table {
+    font-size: 76%;
+  }
+  .second-tab {
+    height: auto;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+  }
+  #extra-activities {
+    font-size: 35px;
+  }
+  img#rumarino-logo {
+    height: 200px;
+    width: 250px;
+  }
+  img#crome-logo {
+    height: 300px;
+    width: 600px;
+    margin-left: 0%;
+  }
+  ul li {
+    display: inline-block;
+    padding: 8px;
+    margin-left: 5%;
+  }
+  table#ruma-table {
+    font-size: 35px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -15px;
+    padding: 10px;
+  }
+  img#ieee-logo {
+    height: 200px;
+    width: 300px;
+  }
+  img#computersociety-logo {
+    height: 350px;
+    width: 550px;
+    /* margin-left: 25%; */
+  }
+  table#computersociety-table {
+    font-size: 35px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -15px;
+    padding: 10px;
+  }
+  .box#computer-society {
+    margin-left: 7%;
+    width: 100%;
+    text-align: center;
+  }
+  .box#ruma {
+    width: 100%;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .third-tab {
+    background-color: white;
+    height: auto;
+    font-size: 35px;
+  }
+  img#python-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .tab-title {
+    font-size: 45px;
+  }
+}
