@@ -111,11 +111,9 @@
   ul.portfolio {
     list-style-type: none;
   }
-
   ul.portfolio li {
     padding: 5%;
   }
-
   div#website-card {
     width: 88%;
     height: 362px;
@@ -137,7 +135,6 @@
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
   }
-
   div.card-button:hover {
     background-color: black;
     color: white;
@@ -161,11 +158,11 @@
 @media only screen and (min-width: 1200px) {
   #intro-box {
     height: 50%;
-    width: 77%;
+    width: 41%;
     color: white;
     text-align: center;
     padding: 8px;
-    margin-left: 11%;
+    margin-left: 31%;
     margin-top: 10%;
     background: inherit;
     background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
@@ -179,12 +176,12 @@
     /* margin-top: -75px; */
     margin-right: 5px;
     margin-left: 5px;
-    font-size: 277%;
+    font-size: 490%;
     background-clip: border-box;
     font-family: 'Amatic SC';
   }
   .tab-title {
-    font-size: 53%;
+    font-size: 75%;
   }
   .first-tab {
     background: white;
@@ -245,15 +242,15 @@
     border-width: 0 3px;
   }
   p.about-me-text {
-    margin-top: -11%;
-    font-size: 30%;
+    margin-top: -4%;
+    font-size: 47%;
     margin-bottom: 30px;
     margin-left: 15%;
     text-align: center;
     margin-right: 15%;
   }
   h2 {
-    font-size: 86%;
+    font-size: 164%;
   }
   #emphasis {
     text-emphasis: dot;
@@ -266,12 +263,37 @@
     position: relative;
     font-size: 50px;
   }
-  ul.portfolio {
-    list-style-type: none;
+  table.portfolio tr td {
+    width: auto;
   }
   div#website-card {
-    width: 100%;
-    height: 100%;
+    width: 69%;
+    height: auto;
+    margin-left: 63%;
+  }
+  div#flamboyan-card {
+    width: 37%;
+    height: auto;
+    margin-left: 28%;
+  }
+  p.card-text {
+    font-size: 28%;
+    color: black;
+  }
+  div.card-button {
+    border: 3px solid lightslategray;
+    background-color: transparent;
+    color: black;
+    font-size: 28%;
+    width: 24%;
+    padding: 2%;
+    margin-left: 36%;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  div.card-button:hover {
+    background-color: lightslategray;
+    color: white;
   }
   iframe.portfolio-frame {
     width: 88%;
