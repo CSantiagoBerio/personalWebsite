@@ -1,259 +1,281 @@
-#intro-box {
-  height: 225px;
-  width: 750px;
-  color: white;
-  text-align: center;
-  padding: 8px;
-  margin-left: 30%;
-  margin-top: 10%;
-  background: inherit;
-  background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
-  background-repeat: no-repeat;
-  background-size: 8px 3px;
-  background-position: top left, top right, bottom left, bottom right;
-  border: solid white;
-  border-width: 0 3px;
-}
+/* Extra small devices (phones, 600px and down) */
 
-#name {
-  /* margin-top: -75px; */
-  margin-right: 5px;
-  margin-left: 5px;
-  font-size: 75px;
-  background-clip: border-box;
-  font-family: 'Amatic SC';
-}
-
-.first-tab {
-  background: white;
-  height: auto;
-  width: auto;
-  font-size: 50px;
-  color: black;
-  overflow: hidden;
-  margin-top: 100px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.experiences-title {
-  font-size: 50px;
-  color: black;
-  overflow: hidden;
-  margin-top: 25px;
-  text-align: center;
-  position: relative;
-  background: inherit;
-}
-
-.experiences-info {
-  color: black;
-  position: relative;
-  background: inherit;
-  font-size: 50px;
-}
-
-.box {
-  background: inherit;
-  position: relative;
-  margin-top: 50px;
-  width: 500px;
-  margin-left: 32%;
-  height: 150px;
-  padding: 10px;
-  background-image: linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black);
-  background-repeat: no-repeat;
-  background-size: 8px 3px;
-  background-position: top left, top right, bottom left, bottom right;
-  border: solid black;
-  border-width: 0 3px;
-}
-
-.box.white {
-  background: inherit;
-  position: relative;
-  margin-top: 50px;
-  width: auto;
-  /* margin-left: 36.5%; */
-  height: 150px;
-  padding: 10px;
-  background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
-  background-repeat: no-repeat;
-  background-size: 8px 3px;
-  background-position: top left, top right, bottom left, bottom right;
-  border: solid white;
-  border-width: 0 3px;
-}
-
-.white-text {
-  color: white;
-}
-
-.box#jechat {
-  width: 800px;
-  margin-left: 25%;
-}
-
-.box#sahure {
-  width: 850px;
-  margin-left: 25%;
-}
-
-.box#roche {
-  width: 850px;
-  margin-left: 25%;
-}
-
-table,
-tr,
-td {
-  background: inherit;
-  position: relative;
-  padding: 10px;
-  margin-top: 100px;
-}
-
-p {
-  margin-top: 25px;
-  font-size: 35px;
-  margin-bottom: 30px;
-  margin-left: 15%;
-  text-align: center;
-  margin-right: 15%;
-}
-
-h2 {
-  font-size: 35px;
-}
-
-#emphasis {
-  text-emphasis: dot;
-  text-emphasis-position: under right;
-}
-
-hr {
-  height: 45px;
-  border-color: white;
-  border-top-width: 5px;
-  border-top-style: dotted;
-  width: 75%;
-}
-
-#carouselExampleControls {
-  width: 75%;
-  height: 750px;
-  border: 2px dashed white;
-  margin-left: 12.5%;
-  margin-top: 50px;
-  padding: 10px;
-  margin-bottom: 50px;
-}
-
-.carousel-item {
-  height: auto;
-  font-size: 40px;
-}
-
-.carousel-control-previous {
-  margin-left: -50px;
-}
-
-.fa-angle-left {
-  color: white;
-}
-
-.fa-angle-right {
-  color: white;
-}
-
-.carousel-table {
-  font-size: 35px;
-}
-
-.second-tab {
-  height: auto;
-  color: white;
-  text-align: center;
-  position: relative;
-  font-size: 50px;
-}
-
-#extra-activities {
-  font-size: 35px;
-}
-
-img#rumarino-logo {
-  height: 200px;
-  width: 250px;
-}
-
-img#crome-logo {
-    height: 300px;
-    width: 600px;
-    margin-left: 15%;
-}
-
-ul li {
-  display: inline-block;
-  padding: 8px;
-  margin-left: 5%;
-}
-
-table#ruma-table {
-    font-size: 35px;
-    width: auto;
-    margin-left: 20%; 
-    margin-right: 20%;
-    margin-top: -15px;
-    padding: 10px;
-}
-
-img#ieee-logo {
-    height: 200px;
-    width: 300px;
-}
-
-img#computersociety-logo {
-    height: 350px;
-    width: 550px;
-    margin-left: 25%;
-}
-
-table#computersociety-table {
-    font-size: 35px;
-    width: auto;
-    margin-left: 20%; 
-    margin-right: 20%;
-    margin-top: -15px;
-    padding: 10px;
-}
-
-.box#computer-society {
-    margin-left: 20%;
-    width: 100%; 
+@media only screen and (max-width: 600px) {
+  #intro-box {
+    height: 50%;
+    width: 77%;
+    color: white;
     text-align: center;
-}
-.box#ruma {
-  width: 100%;
-  text-align: center;
-  margin-left: 20%;
+    padding: 8px;
+    margin-left: 11%;
+    margin-top: 10%;
+    background: inherit;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
+  }
+  #name {
+    /* margin-top: -75px; */
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 277%;
+    background-clip: border-box;
+    font-family: 'Amatic SC';
+  }
+  .tab-title {
+    font-size: 53%;
+  }
+  .first-tab {
+    background: white;
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .experiences-title {
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+    background: inherit;
+  }
+  .experiences-info {
+    color: black;
+    position: relative;
+    background: inherit;
+    font-size: 50px;
+  }
+  .box {
+    background: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 32%;
+    height: 150px;
+    padding: 10px;
+    background-image: linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid black;
+    border-width: 0 3px;
+  }
+  .box.white {
+    background: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: auto;
+    /* margin-left: 36.5%; */
+    height: 150px;
+    padding: 10px;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
+  }
+  p.about-me-text {
+    margin-top: -11%;
+    font-size: 30%;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    text-align: center;
+    margin-right: 15%;
+  }
+  h2 {
+    font-size: 86%;
+  }
+  #emphasis {
+    text-emphasis: dot;
+    text-emphasis-position: under right;
+  }
+  .second-tab {
+    height: auto;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+  }
+  ul.portfolio {
+    list-style-type: none;
+  }
+
+  ul.portfolio li {
+    padding: 5%;
+  }
+
+  div#website-card {
+    width: 88%;
+    height: 362px;
+    font-size: 20%;
+    color: black;
+  }
+  iframe.portfolio-frame {
+    width: 88%;
+    height: 250px;
+    margin-top: 33%;
+  }
+  div.card-button {
+    border: 3px solid black;
+    background-color: transparent;
+    color: black;
+    width: 24%;
+    padding: 2%;
+    margin-left: 36%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  div.card-button:hover {
+    background-color: black;
+    color: white;
+  }
 }
 
-.third-tab {
-  background-color: white;
-  height: auto;
-  font-size: 35px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  #intro-box {
+    height: 50%;
+    width: 77%;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-left: 11%;
+    margin-top: 10%;
+    background: inherit;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
+  }
+  #name {
+    /* margin-top: -75px; */
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 277%;
+    background-clip: border-box;
+    font-family: 'Amatic SC';
+  }
+  .tab-title {
+    font-size: 53%;
+  }
+  .first-tab {
+    background: white;
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .experiences-title {
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+    background: inherit;
+  }
+  .experiences-info {
+    color: black;
+    position: relative;
+    background: inherit;
+    font-size: 50px;
+  }
+  .box {
+    background: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 32%;
+    height: 150px;
+    padding: 10px;
+    background-image: linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black), linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid black;
+    border-width: 0 3px;
+  }
+  .box.white {
+    background: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: auto;
+    /* margin-left: 36.5%; */
+    height: 150px;
+    padding: 10px;
+    background-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 8px 3px;
+    background-position: top left, top right, bottom left, bottom right;
+    border: solid white;
+    border-width: 0 3px;
+  }
+  p.about-me-text {
+    margin-top: -11%;
+    font-size: 30%;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    text-align: center;
+    margin-right: 15%;
+  }
+  h2 {
+    font-size: 86%;
+  }
+  #emphasis {
+    text-emphasis: dot;
+    text-emphasis-position: under right;
+  }
+  .second-tab {
+    height: auto;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+  }
+  ul.portfolio {
+    list-style-type: none;
+  }
+  div#website-card {
+    width: 100%;
+    height: 100%;
+  }
+  iframe.portfolio-frame {
+    width: 88%;
+    height: 250px;
+    margin-top: 33%;
+  }
 }
-
-img#python-logo {
-  height: 50px;
-  width: 50px;
-}
-
-.tab-title {
-  font-size: 45px;
-}
-
-
